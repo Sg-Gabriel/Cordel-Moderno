@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-width: 100vw;
+}
+header h1{
+    padding-top: 50px;
+    font-family: passion one, Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+header h1:hover{
+    text-decoration: underline;
+}  
+header p{
+    padding-bottom: 50px;
+    margin: 0px;
+}  
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+    background-color: white;
+    
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 35px;
+    font-size: 3.5vw;
+    
+}
+section.normal{
+    background-color: white;
+    color: black;
+    
+    
+}
+section.imagem{
+    background-color: black;
+    box-shadow: inset 6px 6px 14px 0px black;
+}
+#imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#imagem2{
+     background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: inline-block;
+    padding: 8px;
+    text-shadow: 1.5px 1px 0px black;
+}
+p{
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
